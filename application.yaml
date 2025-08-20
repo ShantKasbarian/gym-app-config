@@ -1,0 +1,8 @@
+main-app:
+  url: "http://localhost:8080"
+
+workload-app:
+  url: "http://localhost:8000"
+
+eureka-server:
+  url: "http://localhost:8761"
