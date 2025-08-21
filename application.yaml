@@ -1,5 +1,9 @@
-main-app: "http://localhost:8080"
+MAIN-APP:
+  URL: "http://localhost:8080"
+  GET-ALL-WORKLOADS: "/trainings"
 
-workload-app: "http://localhost:8000"
+WORKLOAD-APP:
+  URL: "http://localhost:8000"
 
-eureka-server: "http://localhost:8761"
+EUREKA-SERVER:
+  URL: "http://localhost:8761"
