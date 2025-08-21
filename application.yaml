@@ -5,8 +5,5 @@ MAIN-APP:
 WORKLOAD-APP:
   URL: "http://localhost:8000"
 
-EUREKA-SERVER:
-  URL: "http://localhost:8761"
-
 MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
