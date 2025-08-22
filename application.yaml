@@ -7,3 +7,6 @@ WORKLOAD-APP:
 
 MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
+
+API-KEY:
+  HEADER-NAME: "X-API-KEY"
