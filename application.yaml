@@ -10,3 +10,6 @@ MODIFY-WORKLOAD:
 
 API-KEY:
   HEADER-NAME: "X-API-KEY"
+
+TRAINING-QUEUE:
+  NAME: "training-queue"
