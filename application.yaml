@@ -7,9 +7,15 @@ WORKLOAD-APP:
 
 MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
+  QUEUE-NAME: "modify-workload-queue"
 
 API-KEY:
   HEADER-NAME: "X-API-KEY"
 
-TRAINING-QUEUE:
-  NAME: "training-queue"
+WORKLOAD:
+  REQUEST:
+    QUEUE-NAME: "workload-request-queue"
+
+  RESPONSE:
+    QUEUE-NAME: "workload-response-queue"
+
