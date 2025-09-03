@@ -15,7 +15,3 @@ API-KEY:
 WORKLOAD:
   REQUEST:
     QUEUE-NAME: "workload-request-queue"
-
-  RESPONSE:
-    QUEUE-NAME: "workload-response-queue"
-
