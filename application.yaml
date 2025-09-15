@@ -9,9 +9,6 @@ MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
 
 WORKLOAD:
-  REQUEST:
-    QUEUE: "workload-request-queue"
-
   SINGLE:
     UPDATE:
       QUEUE: "workload.single.update.queue"
