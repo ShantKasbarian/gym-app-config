@@ -8,12 +8,9 @@ WORKLOAD-APP:
 MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
 
-API-KEY:
-  HEADER-NAME: "X-API-KEY"
-
 WORKLOAD:
   REQUEST:
-    QUEUE-NAME: "workload-request-queue"
+    QUEUE: "workload-request-queue"
 
   SINGLE:
     UPDATE:
