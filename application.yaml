@@ -15,10 +15,10 @@ WORKLOAD:
   REQUEST:
     QUEUE-NAME: "workload-request-queue"
 
-  single:
-    update:
-      queue: "workload.single.update.queue"
+  SINGLE:
+    UPDATE:
+      QUEUE: "workload.single.update.queue"
 
-  batch:
-    update:
-      queue: "workload.batch.update.queue"
+  BATCH:
+    UPDATE:
+      QUEUE: "workload.batch.update.queue"
