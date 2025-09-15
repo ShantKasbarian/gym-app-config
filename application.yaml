@@ -7,7 +7,6 @@ WORKLOAD-APP:
 
 MODIFY-WORKLOAD:
   URL: "http://workload-app/workloads"
-  QUEUE-NAME: "modify-workload-queue"
 
 API-KEY:
   HEADER-NAME: "X-API-KEY"
@@ -15,3 +14,11 @@ API-KEY:
 WORKLOAD:
   REQUEST:
     QUEUE-NAME: "workload-request-queue"
+
+  single:
+    update:
+      queue: "workload.single.update.queue"
+
+  batch:
+    update:
+      queue: "workload.batch.update.queue"
